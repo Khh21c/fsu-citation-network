@@ -1,0 +1,11 @@
+html, body { height: 100%; margin: 0; font-family: system-ui, sans-serif; }
+body { display: flex; flex-direction: column; background: #fff; }
+header { display: flex; align-items: center; justify-content: space-between;
+         padding: 10px 20px; border-bottom: 3px solid #CEB888; }  /* FSU gold accent */
+h1 { margin: 0; font-size: 1.25rem; color: #782F40; }
+.controls { display: flex; align-items: center; gap: 12px; font-size: 0.9rem; color: #555; }
+button { background: #782F40; color: #fff; border: 0; border-radius: 4px;
+         padding: 6px 12px; cursor: pointer; }
+button:hover { background: #5c2331; }
+svg { flex: 1; width: 100%; min-height: 0; display: block; cursor: grab; }
+svg:active { cursor: grabbing; }
